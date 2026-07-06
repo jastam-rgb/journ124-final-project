@@ -20,19 +20,19 @@ To comb through my data, I first created filters to sort out any empty values an
 
 1. Distribution of Exam Scores
 
-![Chart of Exam Score Distribution](Distribution of Exam Scores .png)
+![Chart of Exam Score Distribution](Distribution of Exam Scores.png)
 
 In order to gauge the overall academic performance of this set of students, I wanted to visualize the distribution of their exam scores, and see if there were any clusters around certain ranges. Overall, the distribution seemed to be roughly normally distributed.
 
 2. Exam Scores vs. Study Hours
 
-![Chart of Exam Scores vs. Study Hours](Exam Score vs. Study Hours .png)
+![Chart of Exam Scores vs. Study Hours](Exam Score vs. Study Hours.png)
 
 I wanted to see if there was a relationship between time spent studying and exam results, as it would logically have a positive correlation. Overall, there seems to be a positive trend toward a higher exam score based on the hours spent studying a day with minimal outliers. 
 
 3. Academic Performance vs. Study Hours
 
-![Chart of Academic Performance vs. Study Hours](Academic Performance vs. Average Hours Studied Per Day .png)
+![Chart of Academic Performance vs. Study Hours](Academic Performance vs. Average Hours Studied Per Day.png)
 
 I hoped to better understand how the academic performance rating was categorized through this visualization, while also seeing how else study hours might have an impact. A similar trend occurs here as in the previous chart, as the more hours spent studying in a day seems to correlate with a higher academic performance. 
 
