@@ -16,11 +16,15 @@ To comb through my data, I first created filters to sort out any empty values an
 
 1. I first looked at the relationship between gender and academic performance factors (CGPA, Exam Score, Study Hours per Day). I created averages for the performance factors and compared them against the gender category; ultimately, the difference between genders was negligible, with only a decimal point of difference between Female and Male.
 
-  
+![Pivot Table of Gender v. Academic Performance](genderpivot.png)
 
-3. I then looked at the relationship between the academic performance rating given in the dataset (split between Poor, Average, and Good) and similar academic performance factors, including average attendance. Here, the relationship was more cogent, as all of the academic performance factors increased as the performance rating improved. For example, the average CGPA for students with a "Poor" academic performance rating was 1.9 on a 4.0 scale, while students with a "Good" rating had an average CGPA of 3.6. Factors such as attendance and study hours likely influenced this, as students with a "Poor" rating had an average attendance of 79.4% and studied for an average of 2.1 hours a day, as compared to those with a "Good" rating, whose average attendance was 83.7% and studied for an average of 4.7 hours a day.
+2. I then looked at the relationship between the academic performance rating given in the dataset (split between Poor, Average, and Good) and similar academic performance factors, including average attendance. Here, the relationship was more cogent, as all of the academic performance factors increased as the performance rating improved. For example, the average CGPA for students with a "Poor" academic performance rating was 1.9 on a 4.0 scale, while students with a "Good" rating had an average CGPA of 3.6. Factors such as attendance and study hours likely influenced this, as students with a "Poor" rating had an average attendance of 79.4% and studied for an average of 2.1 hours a day, as compared to those with a "Good" rating, whose average attendance was 83.7% and studied for an average of 4.7 hours a day.
 
-4. I also wanted to see how stress level impacted other lifestyle and academic aspects, namely average hours of sleep and average exam score. Stress level was split into 3 categories (Low, Medium, High), and I created a pivot table to compare stress against the aforementioned factors. Here, I found that while the difference was minute, there did seem to be a slight relationship between stress level and these factors. Students with a "Low" stress level averaged 7.05 hours of sleep and scored an exam score average of 72.29. On the other hand, students with a "High" stress level averaged 6.75 hours of sleep a night. Intriguingly enough, however, students with "High" stress performed most poorly in exams, with an exam score average of 71.78. This could highlight a potential relationship between sleep levels and exam scores, or perhaps the negative impact of stress on academic performance.
+![Pivot Table of Academic Performance Rating v. Academic Performance Factors](performancepivot.png)
+
+3. I also wanted to see how stress level impacted other lifestyle and academic aspects, namely average hours of sleep and average exam score. Stress level was split into 3 categories (Low, Medium, High), and I created a pivot table to compare stress against the aforementioned factors. Here, I found that while the difference was minute, there did seem to be a slight relationship between stress level and these factors. Students with a "Low" stress level averaged 7.05 hours of sleep and scored an exam score average of 72.29. On the other hand, students with a "High" stress level averaged 6.75 hours of sleep a night. Intriguingly enough, however, students with "High" stress performed most poorly in exams, with an exam score average of 71.78. This could highlight a potential relationship between sleep levels and exam scores, or perhaps the negative impact of stress on academic performance.
+
+![Pivot Table of Stress Level v. Academic Performance](stresspivot.png)
 
 ## Data Visualizations 
 
@@ -34,7 +38,7 @@ In order to gauge the overall academic performance of this set of students, I wa
 
 ![Chart of Exam Scores vs. Study Hours](scoresvhours.png)
 
-I wanted to see if there was a relationship between time spent studying and exam results, as it would logically have a positive correlation. Overall, there seems to be a positive trend toward a higher exam score based on the hours spent studying a day with minimal outliers. 
+I wanted to see if there was a relationship between time spent studying and exam results, as it would logically have a positive correlation. Overall, there seems to be a positive trend toward a higher exam score based on the hours spent studying per day, with minimal outliers. 
 
 3. Academic Performance vs. Study Hours
 
