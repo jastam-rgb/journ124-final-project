@@ -14,7 +14,7 @@ Since the dataset was created primarily for educational purposes rather than aca
 
 To comb through my data, I first created filters to sort out any empty values and delete null data. Afterwards, I played around with pivot tables to identify interesting trends or relationships. 
 
-1. I first looked at the relationship between gender and academic performance factors (CGPA, Exam Score, Study Hours per Day). I created averages for the performance factors and compared them against the gender category; ultimately, the difference between genders was negligible, with only a decimal point of difference between Female and Male.
+1. I first looked at the relationship between gender and academic performance factors (CGPA, Exam Score, Study Hours per Day). I created averages for the performance factors and compared them against the gender category; ultimately, the difference between genders was negligible, with only a few decimal points of difference between Female and Male.
 
 ![Pivot Table of Gender v. Academic Performance](genderpivot.png)
 
